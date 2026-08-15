@@ -16,8 +16,9 @@ public class Solution {
         while(temp != null){
             if(map.containsKey(temp)){
                 return true;
+            }else{
+                map.put(temp,1);
             }
-            map.put(temp,1);
             temp = temp.next;
         }
         return false;
