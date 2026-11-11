@@ -6,8 +6,7 @@ class Solution {
         while(n != 1){
             if(n % 3 != 0){
                 return false;
-            }
-            else{
+            }else{
                 n = n/3;
             }
         }
